@@ -1,0 +1,137 @@
+body{
+    background: white;
+}
+
+.vien {
+    background: black;
+}
+
+.vienXam{
+	background-color:#1d2023;
+}
+
+.khungVien{
+	margin: 50px;
+	padding-left: 20px;
+	padding-right: 56px;
+}
+.khungVien2{
+	margin: 0px;
+}
+
+input{
+	margin: 3px;
+	margin-right: 0px;
+}
+
+button{
+	margin: 3px;
+	margin-left: 0px;
+}
+
+#ava{
+	margin-top: 0px;
+	border-radius: 50%;
+}
+
+.col-md-2-2{
+	height: 40px;
+}
+
+.dn{
+	margin-top: 5px;
+    display: block;
+}
+
+#cart{
+	margin-top: 5px;
+	border-radius: 50%;
+}
+
+.font1{
+	font-size: 18px;
+	color: #ff6666;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 5px;
+	margin-left: 3px;
+}
+
+.font2{
+	font-size: 16px;
+	color: pink;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 5px;
+	margin-left: 20px;
+}
+
+.checkbox{
+	margin-left: 35px;
+}
+
+.radio{
+	margin-left: 35px;
+}
+
+.font3{
+	font-size: 14px;
+	color: white;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 3px;
+	margin-left: 6px;
+}
+
+.bt1{
+	background-color: pink;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-left: 14px;
+	color: black;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 3px;
+	margin-left: 90px;
+}
+
+.font4{
+	font-size: 30px;
+	color: #001a66;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 20px;
+	margin-left: 3px;
+	background-color: white;
+	margin-left: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.font5{
+	font-size: 18px;
+	color: black;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 30px;
+	margin-bottom: 0px;
+	background-color: white;
+	padding-left: 3px;
+}
+
+.font6{
+	font-size: 16px;
+	color: red;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 30px;
+	margin-top: 0px;
+	background-color: white;
+	padding-left: 3px;
+}
+
+.font7{
+	font-size: 16px;
+	color: white;
+	margin: 0px;
+	padding-left: 200px;
+	padding-top: 5px;
+	font-family: Times New Roman, Georgia, Serif;
+}
+
+.sony{
+	padding-top: 2px;
+}
