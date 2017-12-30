@@ -2,18 +2,21 @@ body{
     background: white;
 }
 
-.vien {
-    background: black;
-}
-
 .vienXam{
 	background-color:#1d2023;
 }
 
+.vien{
+	background-color: black;
+}
+
+.vienDa{
+	background-color: rgb(247, 225, 196);
+}
+
 .khungVien{
 	margin: 50px;
-	padding-left: 20px;
-	padding-right: 56px;
+	background: black;
 }
 .khungVien2{
 	margin: 0px;
@@ -101,6 +104,7 @@ button{
 	margin-left: 0px;
 	margin-top: 0;
 	margin-bottom: 0;
+	background-color: antiquewhite;
 }
 
 .font5{
@@ -126,12 +130,16 @@ button{
 .font7{
 	font-size: 16px;
 	color: white;
-	margin: 0px;
-	padding-left: 200px;
-	padding-top: 5px;
+	padding-top: 25px;
 	font-family: Times New Roman, Georgia, Serif;
+	margin-left: 0px;
 }
 
 .sony{
 	padding-top: 2px;
 }
+
+#text{
+	margin-left: 100px;
+}
+

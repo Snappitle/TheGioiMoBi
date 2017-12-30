@@ -11,7 +11,7 @@
         }
 
         public function indexView(){
-            $this->load->View("frame");
+            $this->load->View("body");
         }
     }
 ?>
