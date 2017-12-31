@@ -54,6 +54,9 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 5px;
 	margin-left: 3px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 .font2{
@@ -78,6 +81,8 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 3px;
 	margin-left: 6px;
+	margin-top: 10px;
+	margin-bottom:2px;
 }
 
 .bt1{

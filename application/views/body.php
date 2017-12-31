@@ -22,7 +22,14 @@
 			</div> 
 
 			<div class="row">
-				<div class="col-md-2">	
+				<div class="col-md-2">
+					<p class="font1">=>Menu</p>
+					<a id="acaocap" href="#"class="font2">Sản phẩm cao cấp</a><br/>
+					<a id="atrungcap" href="#"class="font2">Sản phẩm trung cấp</a><br/>
+					<a id="aphothong" href="#"class="font2">Sản phẩm phổ thông</a><br/>
+					<a id="aApple" href="#"class="font2">Nhà xản xuất Apple</a><br/>
+					<a id="aSamsung" href="#"class="font2">Nhà xản xuất Apple</a><br/>
+					<a id="aHTC" href="#" class="font2">Nhà xản xuất HTC</a>
 					<p class="font1">=>Tìm theo tiêu chí:</p>
 					<p class="font2">Dòng sản phẩm:</p>
 					<div class="checkbox">
