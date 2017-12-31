@@ -28,8 +28,10 @@
 					<a id="atrungcap" href="#"class="font2">Sản phẩm trung cấp</a><br/>
 					<a id="aphothong" href="#"class="font2">Sản phẩm phổ thông</a><br/>
 					<a id="aApple" href="#"class="font2">Nhà xản xuất Apple</a><br/>
-					<a id="aSamsung" href="#"class="font2">Nhà xản xuất Apple</a><br/>
+					<a id="aSamsung" href="#"class="font2">Nhà xản xuất Samsung</a><br/>
 					<a id="aHTC" href="#" class="font2">Nhà xản xuất HTC</a>
+					<a id="aCamera" href="#"class="font2">2 Camera</a><br/>
+					<a id="aSim4G" href="#" class="font2">Sim 4G</a>
 					<p class="font1">=>Tìm theo tiêu chí:</p>
 					<p class="font2">Dòng sản phẩm:</p>
 					<div class="checkbox">
@@ -40,8 +42,8 @@
 
 					<p class="font2">Giá tiền:</p>
 					<div class="radio">
-						<input type="radio" name="cb1_5"><label class="font3">1-5 triệuu</label><br/>
-						<input type="radio" name="cb5_10"><label class="font3">5-10 triệuu</label><br/>
+						<input type="radio" name="cb1_5"><label class="font3">1-5 triệu</label><br/>
+						<input type="radio" name="cb5_10"><label class="font3">5-10 triệu</label><br/>
 						<input type="radio" name="cb10_15"><label class="font3">10-15 triệu</label><br/>
 						<input type="radio" name="cb15_20"><label class="font3">15-20 triệu</label><br/>
 						<input type="radio" name="cbtren20"><label class="font3">>20</label><br/>

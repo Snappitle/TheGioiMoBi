@@ -15,5 +15,9 @@
             $this->load->View("body");
             $this->load->view("footer");
         }
+
+        public function login(){
+            $this->load->view("login");
+        }
     }
 ?>
