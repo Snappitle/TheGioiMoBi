@@ -23,7 +23,7 @@
 				return;
 			}
 		?>
-        <div class="container-fluid" id="vien">
+        <div class="container-fluid" id="vienxam">
             <div class="row" id="khung2">
                 <div class="col-md-3"></div>
                 <div class="col-md-6" id="vienxam">
