@@ -10,10 +10,7 @@
         <!-- Bootstrap -->
         <link href="/TheGioiMobi/css/bootstrap.min.css" rel="stylesheet">
         <link href="/TheGioiMobi/style.css" rel="stylesheet">      
-    </head>
-    <body>
-		<div id="vienxam" class="container-fluid">
-			<div id="vien" class="row"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/zz.jpg" class="img-responsive"></div>
+        <div id="vienxam" class="container-fluid">
+			<div id="vien" class="row"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></div>
 		</div>	
-	</body>
-</html>
+    </head>
