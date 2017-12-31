@@ -50,6 +50,9 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 5px;
 	margin-left: 3px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 .font2{
@@ -74,6 +77,8 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 3px;
 	margin-left: 6px;
+	margin-top: 10px;
+	margin-bottom:2px;
 }
 
 .bt1{
@@ -128,6 +133,34 @@ button{
 	margin-left: 1px;
 }
 
+.font8{
+	font-size: 60px;
+	color: pink;
+	font-family: Times New Roman, Georgia, Serif;
+	text-align: center
+}
+
+#font9{
+	font-size: 22px;
+	color: pink;
+	font-family: Times New Roman, Georgia, Serif;
+	text-align: center;
+	padding-right: 10px;
+}
+
+#font10{
+	font-size: 22px;
+	color: pink;
+	font-family: Times New Roman, Georgia, Serif;
+	text-align: center;
+	padding-right: 0px;
+}
+
+.font11{
+	font-size: 20px;
+	padding-left: 23px;
+}
+
 .sony{
 	padding-top: 2px;
 }
@@ -146,4 +179,27 @@ button{
 #button{
 	margin-left: 0px;
 	padding-left: 4px;
+}
+
+#login{
+	padding-left: 0px;
+}
+
+.bt2{
+	background-color: pink;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 14px;
+	color: black;
+	font-family: Times New Roman, Georgia, Serif;
+	font-weight: 5px;
+	margin-left: 13px;
+}
+
+#khung2{
+	background-color: black;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 }

@@ -9,5 +9,9 @@
             $this->load->view("content.php", $data);
             $this->load->view("footer");
         }
+
+        public function login(){
+            $this->load->view("login");
+        }
     }
 ?>
