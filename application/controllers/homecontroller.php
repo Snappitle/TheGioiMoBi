@@ -1,5 +1,5 @@
 <?php
-    class Cuser extends CI_Controller{
+    class homecontroller extends CI_Controller{
         public function _construct(){
             parent::_construct();
         }
@@ -10,8 +10,11 @@
 
         }
 
-        public function indexView(){
+        public function indexview(){
+            $this->load->view("header");
             $this->load->View("body");
+            $this->load->view("footer");
+            
         }
     }
 ?>

@@ -12,8 +12,7 @@
 		<link href="/TheGioiMobi/style.css" rel="stylesheet">      
 	</head>
   	<body>
-		<div class="container-fluid">
-			<div class="vienXam">
+		<div  id="vienXam" class="container-fluid">
 				<div class="row">
 					<div class="col-md-2">	
 						<p class="font1">=>Tìm theo tiêu chí:</p>
@@ -21,9 +20,9 @@
 						<div class="checkbox">
 							<input type="checkbox" name="cbIphone"><label class="font3">Iphone</label>
 							<br/>
-							<input type="checkbox" name="cbSamSung"><label class="font3">SamSung</label>
+							<input type="checkbox" name="cbSamSung"><label class="font3">Samsung</label>
 							<br/>
-							<input type="checkbox" name="cbHtc"><label class="font3">Htc</label>
+							<input type="checkbox" name="cbHtc"><label class="font3">HTC</label>
 							<br/>
 						</div>
 
@@ -50,13 +49,7 @@
 									<p class="font4"><span class="glyphicon glyphicon-star">Top 10 sản phẩm bán chạy nhất:</span></p>
 								</div>
 							</div>
-						</div>
-					
-					<div class="vienXam">
-						<div class="col-md-1">
-						<img src="/TheGioiMobi/img/gray.png" height="820px" width="85px"/>
-						</div>
-					</div>
+						</div>					
 				</div>
 			</div>	
 		</div>	

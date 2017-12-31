@@ -13,11 +13,9 @@
     </head> 
   	<footer>
 		<div class="container-fluid">
-			<div class="vienXam">
                 <address>
-                    <div class="row">
-                        <div class="col-md-0">
-                        </div>
+                    <div id="vienXam" class="row">
+                        <div class="col-md-0"></div>
                         <div class="col-md-6">				
                             <div class="font7">
                                 <p><i>Công ty cổ phần Thế giới mobi V2V</i></p>
@@ -28,7 +26,6 @@
                         </div>
                     </div>
                 </address>
-	        </div>
 		</div>
 	</footer>
 </html>
