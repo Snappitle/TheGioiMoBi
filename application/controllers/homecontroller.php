@@ -14,7 +14,6 @@
             $this->load->view("header");
             $this->load->View("body");
             $this->load->view("footer");
-            
         }
     }
 ?>

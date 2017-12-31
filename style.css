@@ -2,7 +2,7 @@ body{
     background: white;
 }
 
-#vienXam{
+#vienxam{
 	background-color:#1d2023;
 }
 
@@ -10,16 +10,13 @@ body{
 	background-color: black;
 }
 
-.vienDa{
-	background-color: rgb(247, 225, 196);
+#vienda{
+	background-color: antiquewhite;
 }
-
-.khungVien{
+.khungvien{
 	margin: 50px;
 	background: black;
-}
-.khungVien2{
-	margin: 0px;
+	border-radius: 4px;
 }
 
 input{
@@ -132,7 +129,7 @@ button{
 	color: white;
 	padding-top: 25px;
 	font-family: Times New Roman, Georgia, Serif;
-	margin-left: 0px;
+	margin-left: 1px;
 }
 
 .sony{
@@ -140,6 +137,17 @@ button{
 }
 
 #text{
-	margin-left: 100px;
+	padding-left: 10px;
 }
 
+#search{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	padding-right: 4px;
+}
+
+#button{
+	margin-left: 0px;
+	padding-left: 4px;
+}

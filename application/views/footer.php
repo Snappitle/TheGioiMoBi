@@ -14,9 +14,9 @@
   	<footer>
 		<div class="container-fluid">
                 <address>
-                    <div id="vienXam" class="row">
-                        <div class="col-md-0"></div>
-                        <div class="col-md-6">				
+                    <div id="vienxam" class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6" id="search">				
                             <div class="font7">
                                 <p><i>Công ty cổ phần Thế giới mobi V2V</i></p>
                                 <p><i>Địa chỉ: Số 2, đường Nguyễn Thông, Q.1, Tp.HCM</i></p>
