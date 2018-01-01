@@ -4,13 +4,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Thế giới mobi V2V</title>
         
-        <!-- Bootstrap -->
+        <link href="/TheGioiMobi/css/bootstrap-theme.css" rel="stylesheet">
         <link href="/TheGioiMobi/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/TheGioiMobi/style.css" rel="stylesheet">      
+        <link href="/TheGioiMobi/style.css" rel="stylesheet">
+        <script src="/TheGioiMobi/js/jquery-3.2.1.min.js"></script>
+        <script src="/TheGioiMobi/js/dropdown.js"></script>
         <div id="vienxam" class="container-fluid">
-			<div id="vien" class="row"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></div>
+            <div id="vien" class="row">
+                <a href="/TheGioiMobi/homecontroller/index/"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></a> 
+             </div>
 		</div>	
     </head>
