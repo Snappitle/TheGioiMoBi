@@ -111,8 +111,8 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 30px;
 	margin-bottom: 0px;
-	background-color: white;
-	padding-left: 3px;
+	background-color: antiquewhite;
+	padding-left: 15px;
 }
 
 .font6{
@@ -121,8 +121,8 @@ button{
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 30px;
 	margin-top: 0px;
-	background-color: white;
-	padding-left: 3px;
+	background-color: antiquewhite;
+	padding-left: 15px;
 }
 
 .font7{
@@ -198,4 +198,9 @@ button{
 
 #khung2{
 	margin-bottom: 15%;
+}
+
+#row {
+    margin-left: 0px;
+    margin-right: -15px;
 }
