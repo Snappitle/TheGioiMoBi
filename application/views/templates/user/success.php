@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-md-2">
 					<div class="dropdown">
-						<button style="width:245px" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
+						<button style="width:200px" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
 						<span class="caret" width="100px"></span></button>
 						<ul style="width:245px" class="dropdown-menu">
 							<li><a id="acaocap" href="#">Sản phẩm cao cấp</a></li>
@@ -43,3 +43,7 @@
 					</div>
 				</form>
 				<div class="col-md-10">
+<<<<<<< HEAD:application/views/templates/user/success.php
+=======
+					<div class="row" id="vienda"><p class="font4">&#9733Top 10 sản phẩm mới nhất:</p></div>
+>>>>>>> origin/master:application/views/body.php
