@@ -60,7 +60,7 @@ button{
 	color: pink;
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 5px;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 .checkbox{
@@ -72,13 +72,10 @@ button{
 }
 
 .font3{
-	font-size: 14px;
+	font-size: 15px;
 	color: white;
 	font-family: Times New Roman, Georgia, Serif;
 	font-weight: 3px;
-	margin-left: 6px;
-	margin-top: 10px;
-	margin-bottom:2px;
 }
 
 .bt1{
@@ -99,9 +96,6 @@ button{
 	font-weight: 20px;
 	margin-left: 3px;
 	background-color: white;
-	margin-left: 0px;
-	margin-top: 0;
-	margin-bottom: 0;
 	background-color: antiquewhite;
 }
 
