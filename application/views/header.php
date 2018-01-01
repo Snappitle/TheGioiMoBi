@@ -13,7 +13,7 @@
         <script src="/TheGioiMobi/js/dropdown.js"></script>
         <div id="vienxam" class="container-fluid">
             <div id="vien" class="row">
-                <a href="/TheGioiMobi/homecontroller/index/"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></a> 
+                <a href="/TheGioiMobi/home_controller/index/"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></a> 
              </div>
 		</div>	
     </head>

@@ -19,30 +19,10 @@
 				</div>
 				<div class="col-md-4" id="search"><input type="text" name="tSearch" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text" name="btSearch"></div>
 				<div class="col-md-1" id="button"><button type="button" class="btn btn-default" name="btSearch"><span class="glyphicon glyphicon-search"></span></button></div>
-				<div class="col-md-2"><a href="/TheGioiMobi/homecontroller/login" class="dn" name="lLogin"><img id="ava" width="30px" height="30px" src="/TheGioiMobi/img/ava.jpg"/> Đăng nhập</a></div>
+				<div class="col-md-2"><a href="/TheGioiMobi/login_controller/prelogin" class="dn" name="lLogin"><img id="ava" width="30px" height="30px" src="/TheGioiMobi/img/ava.jpg"/> Đăng nhập</a></div>
 				<div class="col-md-1"><a href="#" name="lcart"><img id="cart" width="30px" height="30px" src="/TheGioiMobi/img/cart.png"/></a></div>
 			</div> 
 			<div class="row">
-<<<<<<< HEAD
-				<form action="hightsearch.php" method="post">
-					<div class="col-md-2">
-						<p class="font1">=>Menu</p>
-						<a id="acaocap" href="#"class="font2">Sản phẩm cao cấp</a><br/>
-						<a id="atrungcap" href="#"class="font2">Sản phẩm trung cấp</a><br/>
-						<a id="aphothong" href="#"class="font2">Sản phẩm phổ thông</a><br/>
-						<a id="aApple" href="#"class="font2">Nhà xản xuất Apple</a><br/>
-						<a id="aSamsung" href="#"class="font2">Nhà xản xuất Samsung</a><br/>
-						<a id="aHTC" href="#" class="font2">Nhà xản xuất HTC</a>
-						<a id="aCamera" href="#"class="font2">2 Camera</a><br/>
-						<a id="aSim4G" href="#" class="font2">Sim 4G</a>
-						<p class="font1">=>Tìm theo tiêu chí:</p>
-						<p class="font2">Dòng sản phẩm:</p>
-						<div class="checkbox">
-							<input type="checkbox" name="cbIphone"><label class="font3">Iphone</label><br/>
-							<input type="checkbox" name="cbSamSung"><label class="font3">Samsung</label><br/>
-							<input type="checkbox" name="cbHtc"><label class="font3">HTC</label><br/>
-						</div>
-=======
 				<div class="col-md-2">
 					<p class="font2">Dòng sản phẩm:</p>
 					<div class="checkbox">
@@ -50,7 +30,6 @@
 						<input type="checkbox" name="cbSamSung"><label class="font3">Samsung</label><br/>
 						<input type="checkbox" name="cbHtc"><label class="font3">HTC</label><br/>
 					</div>
->>>>>>> e47b174158079a99e31069ce9686ac504611c246
 
 						<p class="font2">Giá tiền:</p>
 						<div class="radio">
@@ -64,8 +43,3 @@
 					</div>
 				</form>
 				<div class="col-md-10">
-<<<<<<< HEAD
-					<div class="row" id="vienda"><p class="font4"><span class="glyphicon glyphicon-star">Top 10 sản phẩm mới nhất:</span></p></div>
-=======
-					<div class="row" id="vienda"><p class="font4">&#9733Top 10 sản phẩm bán chạy nhất:</p></div>
->>>>>>> e47b174158079a99e31069ce9686ac504611c246
