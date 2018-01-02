@@ -13,6 +13,7 @@
             $this->load->view("sidebar");
 
             $data["result"] = $this->product_model->getinfo($id);
+            $data["fivephones"] = $this->product_model->get5phones($id);
             $this->load->view("templates/products/product_detail",$data);
 
             $this->load->view("footer");
