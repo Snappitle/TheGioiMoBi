@@ -21,6 +21,10 @@
                 {
                     if($_POST["password"] == $row["MatKhau"])
                     {
+                        if($row["ChucVu"] == 1)
+                        {
+                            $_SESSION["admin"] = 1;
+                        }
                         $_SESSION["userid"] = $_POST["username"];
                         $isStopped = true;
                         return 1; //dang nhap thanh cong

@@ -22,7 +22,7 @@
             }
             elseif($keyword == "2cam")
             {
-                $sql = "select * from dtdd where (CamTruoc and CamSau) != NULL";
+                $sql = "select * from dtdd where (CameraTruoc and CameraSau) is not NULL";
                 $result = $this->db->query($sql)->result_array();    
             }
             elseif($keyword == "4g")
@@ -34,6 +34,56 @@
             {
                 $sql = "select * from dtdd where Ten like '$keyword%'";
                 $result = $this->db->query($sql)->result_array();    
+            }
+
+            return $result;
+        }
+
+        public function getfilterlist($arr)
+        {
+            $condition = "select * from dtdd where (";
+
+            $len = count($arr);
+            $i = 0;
+
+            foreach ($arr as $key) 
+            {
+                if($i == $len - 1)
+                {
+                    $condition = $condition." Hang = "."\"$key\"".")";
+                }
+                else
+                {
+                    $condition = $condition." Hang = "."\"$key\""." or ";
+                }
+                $i++;
+            }
+
+            $price = $this->getprice();
+            $condition = $condition.$price;
+            $result = $this->db->query($condition)->result_array();
+            return $result;
+        }
+
+        public function getprice()
+        {
+            $result = "";
+            if(isset($_POST["price"]))
+            {
+                $price = $_POST["price"];
+                $value = (int)$price;
+                if($value == 5)
+                { 
+                    $result = " and (Gia between ".(($value - 4)*1000000)." and ".($value*1000000).")";
+                }
+                elseif($value == 21)
+                {
+                    $result = " and Gia >= 21000000";
+                }
+                else
+                {
+                    $result = " and (Gia between ".(($value - 5)*1000000)." and ".($value*1000000).")";
+                }
             }
 
             return $result;

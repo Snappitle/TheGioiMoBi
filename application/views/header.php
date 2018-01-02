@@ -11,6 +11,23 @@
         <link href="/TheGioiMobi/style.css" rel="stylesheet">
         <script src="/TheGioiMobi/js/jquery-3.2.1.min.js"></script>
         <script src="/TheGioiMobi/js/dropdown.js"></script>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 100) {
+                    document.getElementById("scrollBtn").style.display = "block";
+                } else {
+                    document.getElementById("scrollBtn").style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+
         <div id="vienxam" class="container-fluid">
             <div id="vien" class="row">
                 <a href="/TheGioiMobi/home_controller/index/"><img class="khungvien" width="92%" height="300px" src="/TheGioiMobi/img/cover.jpg" class="img-responsive"></a> 

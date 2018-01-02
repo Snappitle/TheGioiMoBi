@@ -35,5 +35,14 @@
             }
             $this->load->view("footer");
         }
+
+        public function filter()
+        {
+            $this->load->view("header");
+            $this->load->view("sidebar");
+            $data["list"] = $this->product_model->getfilterlist($_POST["brand"]);
+            $this->load->view("templates/contents/search",$data);
+            $this->load->view("footer");
+        }
     }
 ?>
