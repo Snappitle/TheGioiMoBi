@@ -1,10 +1,10 @@
 <?php
     class home_controller extends CI_Controller
     {
-        public function index()
+        public function index($username = null)
         {
             $this->load->view("header");
-            $this->load->view("sidebar");
+            $this->load->view("sidebar",$username);
 
             $this->load->model("home_model");
             $data["listdtmoi"] = $this->home_model->dsDTMoi();

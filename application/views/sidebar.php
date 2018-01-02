@@ -19,7 +19,24 @@
 				</div>
 				<div class="col-md-4" id="search"><input type="text" name="tSearch" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text" name="btSearch"></div>
 				<div class="col-md-1" id="button"><button type="button" class="btn btn-default" name="btSearch"><span class="glyphicon glyphicon-search"></span></button></div>
-				<div class="col-md-2"><a href="/TheGioiMobi/login_controller/prelogin" class="dn" name="lLogin"><img id="ava" width="30px" height="30px" src="/TheGioiMobi/img/ava.jpg"/> Đăng nhập</a></div>
+				<div class="col-md-2">
+					<button style="width:180px; height:35px" type="button" >
+						<?php
+							if(isset($_SESSION["userid"]))
+							{
+								echo "<a href=\"/TheGioiMobi/login_controller/logout\" class=\"dn\" name=\"lLogin\">";
+								echo "<img id=\"ava\" width=\"25px\" height=\"25px\" src=\"/TheGioiMobi/img/ava.jpg\"/>";
+								echo $_SESSION["userid"]."</a>";
+							}
+							else 
+							{
+								echo "<a href=\"/TheGioiMobi/login_controller/prelogin\" class=\"dn\" name=\"lLogin\">";
+								echo "<img id=\"ava\" width=\"25px\" height=\"25px\" src=\"/TheGioiMobi/img/ava.jpg\"/>";
+								echo "  Đăng nhập"."</a>";
+							}
+						?>
+					</button>
+				</div>
 				<div class="col-md-1"><a href="#" name="lcart"><img id="cart" width="30px" height="30px" src="/TheGioiMobi/img/cart.png"/></a></div>
 			</div> 
 			<div class="row">

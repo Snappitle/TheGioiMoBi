@@ -10,31 +10,37 @@
 
         public function login()
         {
-            $this->load->view("header");
             $this->load->model("login_model");
             $i = $this->login_model->isEmpty();
 
             if($i == 1)
             {
+                $this->load->view("header");
                 $this->load->view("errors/empty");
+                $this->load->view("footer");
             }
             else
             {
                 $j = $this->login_model->KiemTraDangNhap();
                 if($j == 0)
                 {
+                    $this->load->view("header");
                     $this->load->view("errors/notexist");
+                    $this->load->view("footer");
                 }
                 elseif($j == 1)
                 {
-                    $this->load->view("templates/user/success");
+                    require_once(APPPATH.'controllers/home_controller.php');
+                    $homectrl = new home_controller();
+                    $homectrl->index($_SESSION["userid"]);
                 }
                 else
                 {
+                    $this->load->view("header");
                     $this->load->view("errors/wrongpass");
+                    $this->load->view("footer");
                 }
             }
-            $this->load->view("footer");
         }
     }
 ?>
