@@ -25,8 +25,8 @@
 							<div class="col-md-8"></div>
 							<input type="submit" name="login" value="Đăng nhập" class="btn btn-default bt2">
 						</div>
+						</form>
 						<div class="row">
 							<div class="col-md-1"></div>
-							<a id="dangki" href="#"class="font1 font11">=> Đăng kí.</a>
+							<a id="dangki" href="/TheGioiMobi/signup_controller/signup"class="font1 font11">=> Đăng kí.</a>
 						</div>
-					</form>

@@ -6,19 +6,21 @@
 						<button style="width:245px" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
 						<span class="caret" width="100px"></span></button>
 						<ul style="width:245px" class="dropdown-menu">
-							<li><a id="acaocap" href="#">Sản phẩm cao cấp</a></li>
-							<li><a id="atrungcap" href="#">Sản phẩm trung cấp</a></li>
-							<li><a id="aphothong" href="#">Sản phẩm phổ thông</a></li>
-							<li><a id="aApple" href="#">Nhà sản xuất Apple</a></li>
-							<li><a id="aSamsung" href="#">Nhà sản xuất Samsung</a></li>
-							<li><a id="aHTC" href="#" >Nhà sản xuất HTC</a></li>
-							<li><a id="aCamera" href="#">2 Camera</a></li>
-							<li><a id="aSim4G" href="#" >Sim 4G</a></li>
+							<li><a id="acaocap" href="/TheGioiMobi/product_controller/search/cao_cap">Sản phẩm cao cấp</a></li>
+							<li><a id="atrungcap" href="/TheGioiMobi/product_controller/search/trung_cap">Sản phẩm trung cấp</a></li>
+							<li><a id="aphothong" href="/TheGioiMobi/product_controller/search/pho_thong">Sản phẩm phổ thông</a></li>
+							<li><a id="aApple" href="/TheGioiMobi/product_controller/search/Apple">Nhà sản xuất Apple</a></li>
+							<li><a id="aSamsung" href="/TheGioiMobi/product_controller/search/Samsung">Nhà sản xuất Samsung</a></li>
+							<li><a id="aHTC" href="/TheGioiMobi/product_controller/search/HTC" >Nhà sản xuất HTC</a></li>
+							<li><a id="aCamera" href="/TheGioiMobi/product_controller/search/2cam">2 Camera</a></li>
+							<li><a id="aSim4G" href="/TheGioiMobi/product_controller/search/4g" >Sim 4G</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-4" id="search"><input type="text" name="tSearch" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text" name="btSearch"></div>
-				<div class="col-md-1" id="button"><button type="button" class="btn btn-default" name="btSearch"><span class="glyphicon glyphicon-search"></span></button></div>
+				<form method="POST">
+					<div class="col-md-4" id="search"><input type="text" name="search" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text" name="btSearch"></div>
+					<div class="col-md-1" id="button"><button type="submit" class="btn btn-default" name="btSearch" formaction="/TheGioiMobi/product_controller/search/"><span class="glyphicon glyphicon-search"></span></button></div>
+				</form>
 				<div class="col-md-2">
 					<button style="width:180px; height:35px" type="button" >
 						<?php
