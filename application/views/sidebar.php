@@ -17,8 +17,10 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-4" id="search"><input type="text" name="tSearch" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text" name="btSearch"></div>
-				<div class="col-md-1" id="button"><button type="button" class="btn btn-default" name="btSearch"><span class="glyphicon glyphicon-search"></span></button></div>
+				<form action="/TheGioiMobi/search_controller/search" method="post">
+					<div class="col-md-4" id="search"><input type="text" name="tSearch" placeholder="Bạn tìm gì..." class="form-control box-shadow" id="text"></div>
+					<div class="col-md-1" id="button"><button type="button" class="btn btn-default" name="btSearch"><span class="glyphicon glyphicon-search"></span></button></div>
+				</form>
 				<div class="col-md-2"><a href="/TheGioiMobi/login_controller/prelogin" class="dn" name="lLogin"><img id="ava" width="30px" height="30px" src="/TheGioiMobi/img/ava.jpg"/> Đăng nhập</a></div>
 				<div class="col-md-1"><a href="#" name="lcart"><img id="cart" width="30px" height="30px" src="/TheGioiMobi/img/cart.png"/></a></div>
 			</div> 
