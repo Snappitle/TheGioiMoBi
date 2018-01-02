@@ -66,7 +66,7 @@
 							<input type="radio" name="price" value="10"><label class="font3">5-10 triệu</label><br/>
 							<input type="radio" name="price" value="15"><label class="font3">10-15 triệu</label><br/>
 							<input type="radio" name="price" value="20"><label class="font3">15-20 triệu</label><br/>
-							<input type="radio" name="price" value="21"><label class="font3">>20</label><br/>
+							<input type="radio" name="price" value="21"><label class="font3">>20 triệu</label><br/>
 						</div>
 						<button type="submit" class="btn btn-default bt1" formaction="/TheGioiMobi/product_controller/filter" name="btFilter">Lọc<span class="glyphicon glyphicon-filter"></span></button>
 					</div>

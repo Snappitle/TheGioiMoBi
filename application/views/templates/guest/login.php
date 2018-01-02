@@ -1,10 +1,4 @@
 	<body>
-		<?php 
-			if(isset($_SESSION["userid"]))
-			{
-				echo "<div style=\"text-align:center\"><a href=\"logout.php\"<p id=\"header\">Xin chào ".$_SESSION["userid"]."</p></a>";
-			}
-		?>
         <div class="container-fluid" id="vienxam">
             <div class="row" id="khung2">
                 <div class="col-md-3"></div>

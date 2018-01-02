@@ -8,6 +8,19 @@
             return $result;
         }
 
+        public function get5phones($id)
+        {
+            $data = $this->getinfo($id);
+            $hang = null;
+            foreach ($data as $key) {
+                $hang = $key["Hang"];
+                break;
+            }
+            $sql = "select * from dtdd where Hang = \"$hang\" and IDDT != $id limit 5";
+            $result = $this->db->query($sql)->result_array();
+            return $result;
+        }
+
         public function getlistbykeyword($keyword)
         {
             if($keyword == "cao_cap" || $keyword == "trung_cap" || $keyword == "pho_thong")
