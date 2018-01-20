@@ -18,5 +18,6 @@
                     </div>
                 </address>
         </div>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top"><span class ="glyphicon glyphicon-home"></span> Lên trên</button>
     </footer>
 </html>

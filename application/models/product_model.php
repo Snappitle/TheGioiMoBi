@@ -10,6 +10,9 @@
 
         public function get5phones($id)
         {
+            $sql = "update dtdd set LuotXem = LuotXem + 1 where IDDT = $id";
+            $this->db->query($sql);
+
             $data = $this->getinfo($id);
             $hang = null;
             foreach ($data as $key) {
@@ -45,7 +48,7 @@
             }
             else
             {
-                $sql = "select * from dtdd where Ten like '$keyword%'";
+                $sql = "select * from dtdd where Ten like '%$keyword%'";
                 $result = $this->db->query($sql)->result_array();    
             }
 
@@ -99,6 +102,33 @@
                 }
             }
 
+            return $result;
+        }
+
+        public function getonlypricelist()
+        {
+            $price = $_POST["price"];
+            $value = (int)$price;
+            if($value == 5)
+            { 
+                $sql = "select * from dtdd where Gia between ".(($value - 4)*1000000)." and ".($value*1000000);
+            }
+            elseif($value == 21)
+            {
+                $sql = "select * from dtdd where Gia >= 21000000";
+            }
+            else
+            {
+                $sql = "select * from dtdd where Gia between ".(($value - 5)*1000000)." and ".($value*1000000);
+            }
+            $result = $this->db->query($sql)->result_array();
+            return $result;
+        }
+
+        public function getall()
+        {
+            $sql = "select * from dtdd";
+            $result = $this->db->query($sql)->result_array();
             return $result;
         }
     }

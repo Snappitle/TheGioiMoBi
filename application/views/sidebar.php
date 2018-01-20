@@ -1,5 +1,4 @@
   	<body>
-		<button onclick="topFunction()" id="scrollBtn" title="Go to top"><span class ="glyphicon glyphicon-home"></span> Lên trên</button>
 		<div id="vienxam" class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
@@ -27,7 +26,7 @@
 						<?php
 							if(isset($_SESSION["userid"]))
 							{
-								echo "<a href=\"/TheGioiMobi/login_controller/logout\" class=\"dn\" name=\"lLogin\">";
+								echo "<a href=\"/TheGioiMobi/home_controller/index\" class=\"dn\" name=\"lLogin\">";
 								echo "<img id=\"ava\" width=\"25px\" height=\"25px\" src=\"/TheGioiMobi/img/ava.jpg\"/>";
 								echo $_SESSION["userid"]."</a>";
 							}

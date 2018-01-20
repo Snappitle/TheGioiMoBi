@@ -30,6 +30,9 @@
         echo "<div class=\"row\"><h4 >Thẻ sim: ".$key["TheSim"]."</h4></div>";
 
         echo "<div class=\"row\"><h4 >Ngày nhập: ".$key["NgayNhap"]."</h4></div>";
+
+        echo "<div class=\"row\"><h4 >Lượt xem: ".$key["LuotXem"]."</h4></div>";
+
         echo "</div>";        
 
         echo "<div class=\"row\"></div>";
